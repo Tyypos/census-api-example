@@ -24,9 +24,19 @@ const App = () => {
         <div className="md:p-10 py-10 px-4">
             {/* header  */}
             <section className="mb-6 text-center">
-                <h1 className="md:text-5xl text-4xl text-gray-300 mb-6">
+                <h1 className="md:text-5xl text-4xl text-gray-300">
                     Census API Example
                 </h1>
+                <div className="mb-2">
+                    <a
+                        href="https://github.com/Tyypos/census-api-example"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline text-blue-400 text-sm"
+                    >
+                        View the code
+                    </a>
+                </div>
                 <About />
                 <div className="border-t border-t-gray-600 mb-4"></div>
             </section>
